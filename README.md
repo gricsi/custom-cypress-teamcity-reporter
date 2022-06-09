@@ -37,8 +37,8 @@ https://www.gurock.com/testrail/docs/api/reference/results/#addresult
 
 ### Test plan contains simple test run
 
-npx ts-node ./scripts/simple-testrun-reporter.ts ./../result.json
+`npx ts-node ./scripts/simple-testrun-reporter.ts ./../result.json`
 
 ### Test plan contains multiple test runs
 
-npx ts-node ./scripts/testplan-with-multiple-testrun-reporter.ts ./../result.json
+`npx ts-node ./scripts/testplan-with-multiple-testrun-reporter.ts ./../result.json`
