@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "types": [
+      "node"
+    ],
+    "typeRoots": [
+    ],
+    "jsx": "react",
+    "moduleResolution": "node",
+    "resolveJsonModule": true
+  },
+  "include": [
+    "**/*.ts",
+    "**/*/*.ts",
+    "**/*.tsx",
+    "**/*/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "cache"
+  ]
+}

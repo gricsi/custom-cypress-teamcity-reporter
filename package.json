@@ -1,0 +1,24 @@
+{
+  "name": "custom-cypress-teamcity-reporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "upload-result-to-testrail": "npx ts-node ./scripts/simple-testrun-reporter.ts ./../result.json",
+    "upload-multiple-result-to-testrail": "npx ts-node ./scripts/testplan-with-multiple-testrun-reporter.ts ./../result.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gricsi/custom-cypress-teamcity-reporter.git"
+  },
+  "description": "",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "@types/node": "^17.0.41",
+    "testrail-api": "^1.3.6",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  }
+}
